@@ -1,0 +1,122 @@
+* {
+    touch-action: pan-y;
+}
+
+.NoticeBar-box {
+    .am-notice-bar {
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+}
+
+.carousel-box {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 320px;
+    }
+}
+
+.crossline {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 20px;
+}
+
+.bigtitle {
+    overflow: hidden;
+    height: 100px;
+    line-height: 100px;
+
+    h2 {
+        float: left;
+        margin-left: 20px;
+        font-size: 34px;
+        font-weight: 900;
+    }
+
+    p {
+        float: right;
+        margin-right: 20px;
+        font-size: 0.2rem;
+        color: #666;
+    }
+}
+
+// 为你优选
+.choose-for-you {
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-top: -30px;
+    margin-bottom: 30px;
+
+    li {
+        float: left;
+        width: 25%;
+        text-align: center;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.detail-box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #f7f7f7;
+
+    li {
+        float: left;
+        width: 48%;
+        margin: 10px 1%;
+        background-color: #fff;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        h2 {
+            width: 90%;
+            margin-left: 5%;
+            height: 60px;
+            line-height: 60px;
+            font-size: 24px;
+            color: #666;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            // display: -webkit-box;
+            // overflow: hidden;
+            // word-break: break-all;
+            // -webkit-line-clamp: 2;
+            // -webkit-box-orient: vertical;
+            // text-overflow: ellipsis;
+        }
+
+        h3 {
+            height: 50px;
+            line-height: 50px;
+
+            .orignal_price {
+                margin-left: 30px;
+                color: #333;
+                font-size: 26px;
+                text-decoration: line-through;
+            }
+
+            .discount_price {
+                margin-left: 20px;
+                font-size: 26px;
+                color: red;
+            }
+        }
+    }
+}

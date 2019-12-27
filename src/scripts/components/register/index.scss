@@ -1,0 +1,30 @@
+.register-box button {
+    display: block;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #353434;
+    color: #fff;
+    font-size: 30px;
+}
+
+.register-box p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    width: 80%;
+    text-align: right;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 10px;
+    color: rgb(99, 159, 249);
+    font-size: 24px;
+}

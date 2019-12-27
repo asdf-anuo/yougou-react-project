@@ -1,0 +1,141 @@
+.goodsdetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.goodsdetail-box {
+    flex: 1;
+    overflow-y: scroll;
+    margin-bottom: 100px;
+    width: 100%;
+    background-color: #f7f7f7;
+
+    .goods-detail-main {
+        position: relative;
+        border-bottom: 1px solid #ccc;
+
+        ul {
+            overflow: hidden;
+
+            li {
+                float: left;
+                width: 98%;
+                margin: 10px 1%;
+                background-color: #fff;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .goods-name {
+            width: 80%;
+            margin-left: 5%;
+            height: 100px;
+            line-height: 50px;
+            font-size: 24px;
+            color: #666;
+        }
+
+        .goods-price {
+            height: 100px;
+            line-height: 100px;
+            margin-left: 5%;
+
+            .discount_price {
+                font-size: 40px;
+                font-weight: 900;
+                color: red;
+            }
+
+            .orignal_price {
+                margin-left: 20px;
+                color: #666;
+                font-size: 30px;
+                text-decoration: line-through;
+            }
+
+
+        }
+    }
+
+    .save-to-myshopcar {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+
+        i {
+            font-size: 40px;
+        }
+    }
+
+    .cuxiao {
+        height: 100px;
+        line-height: 100px;
+        border-bottom: 10px solid rgb(233, 233, 233);
+
+        span {
+            display: inline-block;
+            font-size: 24px;
+            height: 40px;
+            line-height: 40px;
+        }
+
+        .title1 {
+            margin-left: 5%;
+            width: 10%;
+        }
+
+        .title2 {
+            width: 10%;
+            color: red;
+            text-align: center;
+            border: 1px solid red;
+            border-radius: 15px;
+        }
+
+        .countdown {
+            width: 60%;
+            margin-left: 10%;
+        }
+    }
+}
+
+.shopcar-foot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+    span {
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        font-size: 34px;
+        color: #fff;
+    }
+
+    .myshopcarnum {
+        width: 20%;
+        background-color: #000;
+
+        i {
+            font-size: 40px;
+            padding: 10px;
+        }
+    }
+
+    .saveto-shopcar {
+        width: 40%;
+        background-color: #ffbc00;
+    }
+
+    .goto-shopcar {
+        width: 40%;
+        background-color: #ff3300;
+    }
+}

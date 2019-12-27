@@ -1,0 +1,70 @@
+.login-box {
+
+    button {
+        display: block;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        width: 90%;
+        height: 80px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-left: 5%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #353434;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        width: 80%;
+        text-align: right;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 10px;
+        color: rgb(99, 159, 249);
+        font-size: 24px;
+    }
+
+    h3 {
+        margin-top: 0.5rem;
+        font-size: 0.3rem;
+        color: #999;
+        text-align: center;
+    }
+
+    .otherlogin {
+        display: flex;
+        height:300px;
+
+        p {
+            display: flex;
+            flex-direction: column;
+            width: 22%;
+            text-align: center;
+            margin: 50px 1%;
+
+            i {
+                font-size: 60px;
+                color: #ff5757;
+            }
+
+            .icon-weixin3 {
+                color: #00aa01;
+            }
+
+            .icon-iconfonticons {
+                color: #00abef;
+            }
+
+            span {
+                font-size: 24px;
+                color:#666;
+            }
+        }
+    }
+}

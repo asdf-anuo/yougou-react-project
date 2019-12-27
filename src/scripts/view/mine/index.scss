@@ -1,0 +1,84 @@
+.mine-box {
+    .ifLogin,
+    .noLogin {
+        width: 100%;
+        display: flex;
+
+        h2 {
+            width: 30%;
+
+            img {
+                margin: 10%;
+                width: 80%;
+                height: 80%;
+                border-radius: 50%;
+            }
+        }
+
+        h3 {
+            width: 60%;
+            margin-left: 5%;
+
+            .username {
+                margin-top: 0.2rem;
+                height: 0.8rem;
+                line-height: 0.8rem;
+                font-size: 0.4rem;
+                color: #333;
+            }
+
+            .lv {
+                display: inline-block;
+                height: 0.2rem;
+                line-height: 0.2rem;
+                font-size: 0.2rem;
+                background-color: #353434;
+                color: #fff;
+                border-radius: 0.2rem;
+                padding: 0.1rem 0.2rem;
+            }
+        }
+    }
+
+    .myinfo {
+        width: 100%;
+        margin-top: 0.4rem;
+
+        p {
+            width: 90%;
+            margin-left: 5%;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                height: 0.4rem;
+                line-height: 0.4rem;
+                font-size: 0.28rem;
+                color: #333;
+            }
+
+            .save-num,
+            .my-order,
+            .my-msg {
+                display: inline-block;
+                font-size: 0.2rem;
+                border-radius: 0.2rem;
+                width: 0.7rem;
+                text-align: center;
+                background-color: #353434;
+                color: #fff;
+            }
+
+            .shezhi,
+            .kefu,
+            .tuichu {
+                i {
+                    font-size: 0.4rem;
+                    color: #333;
+                }
+            }
+        }
+    }
+}
